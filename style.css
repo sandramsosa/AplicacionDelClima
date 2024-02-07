@@ -1,0 +1,75 @@
+body {
+    font-family: 'Times New Roman', Times, serif;
+    background-color: #030923;
+  }
+  
+  .contenedor {
+    max-width: 500px;
+    margin: 100px auto;
+    padding: 20px;
+    text-align: center;
+    border-radius: 32px;
+    background-image: radial-gradient(circle at 31.7% 118.3%, #9affff 0, #89ffff 12.5%, #7cfff8 25%, #72f2eb 37.5%, #6cd8d8 50%, #68bec3 62.5%, #64a7b0 75%, #62949e 87.5%, #5f848e 100%);
+    box-shadow: 0 4px 6px rgba(215, 207, 207, 0.962);
+  }
+  
+  h1 {
+    color: #0e0d0d;
+  }
+  img{
+    width: 200px;
+  }
+  
+  .input {
+    margin-top: 1rem;
+    border-radius: 10px;
+    outline: 2px solid #00a6fb;
+    border: 0;
+    font-family: "Montserrat", sans-serif;
+    background-color: #d6f1ff;
+    outline-offset: 3px;
+    padding: 10px 12.5px;
+    transition: all 0.2s ease;
+    width: 250px;
+  }
+  
+  .input:hover {
+    background-color: #fff;
+  }
+  
+  .input:focus {
+    outline-offset: -6px;
+    background-color: #d6f1ff;
+  }
+  
+  .shadow__btn {
+    padding: 10px 20px;
+    margin: 10px;
+    border: none;
+    font-size: 17px;
+    color: #fff;
+    border-radius: 7px;
+    letter-spacing: 4px;
+    font-weight: 700;
+    text-transform: uppercase;
+    transition: 0.5s;
+    transition-property: box-shadow;
+  }
+  
+  .shadow__btn {
+    background: rgb(0,140,255);
+    box-shadow: 0 0 25px rgb(0,140,255);
+  }
+  
+  .shadow__btn:hover {
+    box-shadow: 0 0 5px rgb(0,140,255),
+                0 0 25px rgb(0,140,255),
+                0 0 50px rgb(0,140,255),
+                0 0 100px rgb(0,140,255);
+  }
+  
+  #datosClima {
+    margin-top: 20px;
+    font-size: 18px;
+  }
+  
